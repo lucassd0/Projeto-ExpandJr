@@ -1,0 +1,573 @@
+[27-Feb-2023 18:22:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\index.php:2
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\index.php on line 2
+[27-Feb-2023 18:32:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\includes\translation-install.php on line 68
+[01-Mar-2023 14:56:59 UTC] PHP Parse error:  syntax error, unexpected identifier "rel", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 5
+[01-Mar-2023 14:56:59 UTC] PHP Parse error:  syntax error, unexpected identifier "rel", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 5
+[01-Mar-2023 21:35:33 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 6
+[01-Mar-2023 21:35:34 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 6
+[02-Mar-2023 16:00:08 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[02-Mar-2023 16:02:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\luizf\\...')
+#6 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(13): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:23 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\luizf\\...')
+#6 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:55 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(13): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:02:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "setup_expandjr_theme" not found or invalid function name in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(13): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php on line 308
+[02-Mar-2023 16:04:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_support_theme() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php:4
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(308): setup_expandjr_theme('')
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\luizf\\...')
+#7 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\customize.php(13): require_once('C:\\Users\\luizf\\...')
+#8 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php on line 4
+[02-Mar-2023 16:04:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[02-Mar-2023 16:04:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[02-Mar-2023 16:04:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_support_theme() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php:4
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(308): setup_expandjr_theme('')
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(13): require_once('C:\\Users\\luizf\\...')
+#7 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#8 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php on line 4
+[02-Mar-2023 16:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_support_theme() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php:4
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(308): setup_expandjr_theme('')
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-config.php(93): require_once('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-load.php(50): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\theme-setup.php on line 4
+[02-Mar-2023 16:04:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[03-Mar-2023 14:33:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function stats_get_csv() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:8
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(6): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 8
+[03-Mar-2023 15:31:45 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 14
+[03-Mar-2023 15:31:45 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 94
+[03-Mar-2023 15:31:53 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 94
+[03-Mar-2023 15:32:35 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 94
+[03-Mar-2023 15:33:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_mostpopular() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:13
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(6): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 13
+[03-Mar-2023 15:48:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function stats_get_csv() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:8
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(6): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 8
+[03-Mar-2023 15:54:54 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 95
+[03-Mar-2023 15:55:11 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 95
+[03-Mar-2023 15:55:29 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 9
+[03-Mar-2023 16:22:47 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[04-Mar-2023 13:40:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_page_id() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:40
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 40
+[04-Mar-2023 13:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_page_id() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:40
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 40
+[04-Mar-2023 13:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_page_id() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:17
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 17
+[04-Mar-2023 23:43:19 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:43:20 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:43:20 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:45:16 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:45:17 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:45:17 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "expandjr_campos_secao_detalhes", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 37
+[04-Mar-2023 23:45:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "informacoes-expandjr", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 38
+[04-Mar-2023 23:45:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "informacoes-expandjr", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 38
+[04-Mar-2023 23:45:31 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "informacoes-expandjr", expecting ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 38
+[05-Mar-2023 00:15:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sc_attr() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php:107
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\includes\template.php(1785): expandjr_telefone(Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\includes\template.php(1739): do_settings_fields('informacoes-exp...', 'expandjr_secao')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php(24): do_settings_sections('informacoes-exp...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(308): expandjr_menu_pagina('')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(259): do_action('toplevel_page_i...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 107
+[05-Mar-2023 00:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sc_attr() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php:107
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\includes\template.php(1785): expandjr_telefone(Array)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\includes\template.php(1739): do_settings_fields('informacoes-exp...', 'expandjr_secao')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php(24): do_settings_sections('informacoes-exp...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(308): expandjr_menu_pagina('')
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-admin\admin.php(259): do_action('toplevel_page_i...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 107
+[05-Mar-2023 00:23:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_options() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:79
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(6): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 79
+[06-Mar-2023 12:11:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 22
+[06-Mar-2023 12:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[06-Mar-2023 12:12:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[06-Mar-2023 22:56:55 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 26
+[06-Mar-2023 22:57:09 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Query could not be converted to string in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:26
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-quem-somos.php(22): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 26
+[06-Mar-2023 23:15:14 UTC] PHP Parse error:  syntax error, unexpected token "<<" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\includes\enqueue.php on line 5
+[07-Mar-2023 18:47:41 UTC] PHP Warning:  Undefined array key "fields[" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 17
+[07-Mar-2023 18:47:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 23
+[07-Mar-2023 18:47:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 31
+[07-Mar-2023 18:47:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 38
+[07-Mar-2023 18:47:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 46
+[07-Mar-2023 18:48:56 UTC] PHP Warning:  Undefined array key "fields[Partnership-images" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 17
+[07-Mar-2023 18:48:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 23
+[07-Mar-2023 18:48:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 31
+[07-Mar-2023 18:48:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 38
+[07-Mar-2023 18:48:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\navz-photo-gallery\includes\v5\render_field_settings.php on line 46
+[07-Mar-2023 20:16:42 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 187
+[07-Mar-2023 23:30:59 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 203
+[07-Mar-2023 23:40:06 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\index.php on line 10
+[07-Mar-2023 23:41:28 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 203
+[07-Mar-2023 23:44:22 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 203
+[07-Mar-2023 23:47:06 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 203
+[08-Mar-2023 12:50:15 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 187
+[08-Mar-2023 12:50:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[08-Mar-2023 12:50:42 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 187
+[08-Mar-2023 12:51:06 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php on line 187
+[08-Mar-2023 13:43:09 UTC] PHP Parse error:  syntax error, unexpected identifier "language", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 33
+[08-Mar-2023 19:20:02 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 89
+[08-Mar-2023 19:20:09 UTC] PHP Warning:  Undefined variable $cel in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 89
+[08-Mar-2023 19:35:16 UTC] PHP Warning:  Undefined array key "ne" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\newsletter\subscription\subscription.php on line 820
+[08-Mar-2023 20:27:15 UTC] PHP Parse error:  syntax error, unexpected variable "$email", expecting "," or ";" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 9
+[08-Mar-2023 20:27:26 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting variable or "{" or "$" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 62
+[08-Mar-2023 20:27:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "php" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:62
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 62
+[08-Mar-2023 20:36:03 UTC] PHP Parse error:  syntax error, unexpected variable "$cel" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 12
+[09-Mar-2023 11:29:51 UTC] PHP Parse error:  syntax error, unexpected identifier "the_title", expecting "," or ";" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 9
+[09-Mar-2023 11:37:34 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 10
+[09-Mar-2023 21:37:50 UTC] PHP Fatal error:  Cannot redeclare enjr_cadastro_endereco() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-endereco-empresa\includes\enjr_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 127
+[09-Mar-2023 21:37:51 UTC] PHP Fatal error:  Cannot redeclare enjr_cadastro_endereco() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-endereco-empresa\includes\enjr_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 127
+[09-Mar-2023 21:37:52 UTC] PHP Fatal error:  Cannot redeclare enjr_cadastro_endereco() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-endereco-empresa\includes\enjr_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 127
+[09-Mar-2023 21:38:40 UTC] PHP Fatal error:  Cannot redeclare enjr_cadastro_endereco() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-endereco-empresa\includes\enjr_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 127
+[09-Mar-2023 21:38:41 UTC] PHP Fatal error:  Cannot redeclare enjr_cadastro_endereco() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-endereco-empresa\includes\enjr_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 127
+[09-Mar-2023 22:03:18 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:24 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:31 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:31 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:33 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:34 UTC] PHP Fatal error:  Cannot redeclare zap_cadastro_telefone() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:80) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 148
+[09-Mar-2023 22:03:53 UTC] PHP Fatal error:  Cannot redeclare verifica_zap() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:88) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 203
+[09-Mar-2023 22:03:54 UTC] PHP Fatal error:  Cannot redeclare verifica_zap() (previously declared in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\cadastro-whatsapp\includes\zap_cadastro_settings.php:88) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\info-expandjr\includes\expandjr_settings.php on line 203
+[10-Mar-2023 12:53:04 UTC] Cron reschedule event error for hook: newsletter, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"newsletter","args":[],"interval":300}
+[10-Mar-2023 12:53:10 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[10-Mar-2023 15:11:12 UTC] Cron reschedule event error for hook: newsletter, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"newsletter","args":[],"interval":300}
+[12-Mar-2023 17:15:56 UTC] PHP Fatal error:  Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\wordpress-popular-posts\src\template-tags.php:175
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\wordpress-popular-posts\src\template-tags.php(175): htmlspecialchars(Array, 3, 'UTF-8', false)
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php(24): wpp_get_mostpopular(Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once('C:\\Users\\luizf\\...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(210): get_footer()
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#7 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#8 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#9 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\plugins\wordpress-popular-posts\src\template-tags.php on line 175
+[12-Mar-2023 17:24:47 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 19
+[12-Mar-2023 17:24:47 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 21
+[12-Mar-2023 17:24:47 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 130
+[12-Mar-2023 17:25:10 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 20
+[12-Mar-2023 17:25:10 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 129
+[12-Mar-2023 17:25:21 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 20
+[12-Mar-2023 17:25:21 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 129
+[12-Mar-2023 17:25:28 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 129
+[12-Mar-2023 17:29:32 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 125
+[12-Mar-2023 17:38:06 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 138
+[12-Mar-2023 17:38:22 UTC] PHP Warning:  Undefined variable $popular_posts in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 138
+[12-Mar-2023 17:40:30 UTC] PHP Warning:  Undefined variable $popularpost in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 28
+[12-Mar-2023 17:40:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php:28
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(210): get_footer()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 28
+[12-Mar-2023 17:43:22 UTC] PHP Parse error:  Unclosed '{' on line 28 in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 147
+[12-Mar-2023 17:45:00 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 31
+[12-Mar-2023 17:45:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\footer.php on line 33
+[13-Mar-2023 20:51:39 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 154
+[13-Mar-2023 20:52:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 20:52:33 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 20:56:44 UTC] PHP Parse error:  syntax error, unexpected variable "$mailto" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 176
+[13-Mar-2023 21:12:48 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 38
+[13-Mar-2023 21:13:00 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 17
+[13-Mar-2023 21:13:41 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 17
+[13-Mar-2023 21:23:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: mail() expects at least 3 arguments, 2 given in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:33
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php(33): mail('felyppe.nunes1@...', 'teste de assunt...')
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#4 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 33
+[13-Mar-2023 21:51:11 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:51:28 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:52:05 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:53:14 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:53:51 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:54:07 UTC] PHP Parse error:  syntax error, unexpected identifier "id" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 21:54:21 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[13-Mar-2023 22:02:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function do_shortcode(), 0 passed in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151 and at least 1 expected in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\shortcodes.php:205
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php(151): do_shortcode()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#4 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\shortcodes.php on line 205
+[13-Mar-2023 22:03:21 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 151
+[14-Mar-2023 19:41:11 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 98
+[14-Mar-2023 19:41:12 UTC] Cron reschedule event error for hook: newsletter, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"newsletter","args":[],"interval":300}
+[14-Mar-2023 19:43:43 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 99
+[14-Mar-2023 19:44:08 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 98
+[14-Mar-2023 19:44:42 UTC] PHP Parse error:  Unclosed '{' on line 17 in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 101
+[14-Mar-2023 19:45:32 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 20
+[14-Mar-2023 19:45:41 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 24
+[14-Mar-2023 19:52:22 UTC] PHP Warning:  Undefined variable $objeto in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 12
+[14-Mar-2023 19:52:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php:12
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 12
+[14-Mar-2023 20:51:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_the_languages() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:40
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\index.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 40
+[14-Mar-2023 23:14:53 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 39
+[14-Mar-2023 23:20:35 UTC] PHP Parse error:  Unclosed '{' on line 51 in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 115
+[14-Mar-2023 23:27:56 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 46
+[14-Mar-2023 23:36:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "None" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php:46
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 46
+[14-Mar-2023 23:49:03 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 45
+[15-Mar-2023 19:56:23 UTC] PHP Parse error:  syntax error, unexpected variable "$endereco_completo" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 7
+[15-Mar-2023 19:56:34 UTC] PHP Warning:  Undefined variable $mail_to in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 6
+[15-Mar-2023 19:56:34 UTC] PHP Fatal error:  Uncaught Error: Value of type null is not callable in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:6
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 6
+[15-Mar-2023 19:56:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mail_to() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:6
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 6
+[15-Mar-2023 19:58:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_mail_to() in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:6
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 6
+[15-Mar-2023 20:02:00 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_mail_to" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 8
+[15-Mar-2023 20:02:12 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_mail" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 8
+[15-Mar-2023 20:42:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "n" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:165
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 165
+[15-Mar-2023 20:42:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "n" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php:165
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#3 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 165
+[15-Mar-2023 20:52:01 UTC] PHP Warning:  Undefined array key "check_option3" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 168
+[15-Mar-2023 20:52:01 UTC] PHP Warning:  Undefined array key "check_option4" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 169
+[15-Mar-2023 20:52:01 UTC] PHP Warning:  Undefined array key "check_option5" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 170
+[15-Mar-2023 20:52:01 UTC] PHP Warning:  Undefined variable $sender_city in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 179
+[15-Mar-2023 20:54:27 UTC] PHP Warning:  Undefined variable $sender_city in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 179
+[16-Mar-2023 14:36:04 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 61
+[16-Mar-2023 14:37:16 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 74
+[16-Mar-2023 14:37:55 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 73
+[16-Mar-2023 14:37:55 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 73
+[16-Mar-2023 14:37:55 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 73
+[16-Mar-2023 14:37:55 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 73
+[16-Mar-2023 14:37:55 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-blog.php on line 73
+[16-Mar-2023 18:09:55 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:10:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:10:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:10:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:10:27 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:10:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:11:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[16-Mar-2023 18:11:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "gtranslate" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php:36
+Stack trace:
+#0 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template.php(718): load_template('C:\\Users\\luizf\\...', true, Array)
+#2 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-home.php(2): get_header()
+#4 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\luizf\\...')
+#5 C:\Users\luizf\Local Sites\expand-jr\app\public\wp-blog-header.php(19): require_once('C:\\Users\\luizf\\...')
+#6 C:\Users\luizf\Local Sites\expand-jr\app\public\index.php(17): require('C:\\Users\\luizf\\...')
+#7 {main}
+  thrown in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\header.php on line 36
+[17-Mar-2023 00:06:18 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\category.php on line 89
+[17-Mar-2023 00:06:18 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\category.php on line 89
+[17-Mar-2023 00:06:18 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\category.php on line 89
+[17-Mar-2023 00:29:10 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\category.php on line 93
+[17-Mar-2023 00:29:15 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\category.php on line 93
+[17-Mar-2023 01:17:19 UTC] PHP Warning:  Undefined array key "radio_option" in C:\Users\luizf\Local Sites\expand-jr\app\public\wp-content\themes\expand-jr\page-contato.php on line 57
